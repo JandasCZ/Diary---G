@@ -1,0 +1,10 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="300" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Icon="/list.png">
+    <Grid>
+        <ListBox x:Name="listBox" HorizontalAlignment="Left" Height="200" Margin="33,10,0,0" VerticalAlignment="Top" Width="200"/>
+        <Button Content="Add" HorizontalAlignment="Left" Margin="33,220,0,0" VerticalAlignment="Top" Width="100" Click="AddRecord_Click"/>
+        <Button Content="Delete" HorizontalAlignment="Left" Margin="133,220,0,0" VerticalAlignment="Top" Width="100" Click="DeleteRecord_Click"/>
+    </Grid>
+</Window>
